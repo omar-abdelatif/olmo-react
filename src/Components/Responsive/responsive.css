@@ -313,7 +313,9 @@
 	}
 }
 @media (max-width: 576px) {
-	
+	.hero-title, .hero-form, .hero-img{
+		text-align: center;
+	}
 }
 @media (max-width: 480px) {}
 @media (max-width: 375px) {}
