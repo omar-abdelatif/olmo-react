@@ -323,7 +323,19 @@
 		text-align: center;
 		font-size: 1rem;
 	}
+	.hero-footer-text span{
+		font-size: 1rem;
+	}
+	.hero-img{
+		margin-top: 40px;
+	}
+	.features-texts h2{
+		font-size: 1.8rem;
+	}
+	.features-texts p{
+		font-size: 1rem;
+	}
 }
 @media (max-width: 480px) {}
 @media (max-width: 375px) {}
-@media (min-width: 280px) and (max-width: 653px){} /* CLOSED GALAXY FOLD */
+@media (min-width: 280px) {} /* CLOSED GALAXY FOLD */
