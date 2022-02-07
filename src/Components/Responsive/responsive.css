@@ -371,13 +371,31 @@
 	}
 }
 @media (max-width: 480px) {
+	/* MARKETING COMPONENT */
+	.market-text{
+		margin-bottom: 30px;
+	}
+	.icon {
+		font-size: 55px;
+	}
+	.text h3{
+		font-size: 1.3rem;
+	}
+	.text p{
+		font-size: 0.8rem;
+	}
+	/* TESTMONIALS COMPONENT */
 	.testmonials-item{
-		width: 400px;
+		width: 450px;
 	}
 	.testmonials-item-img img{
 		width: 60px;
 	}
-	
+	/* PARTNER COMPONENT */
+	.partner-img{
+		padding: 0;
+		margin-bottom: 20px;
+	}
 }
 @media (max-width: 375px) {}
 @media (min-width: 280px) {} /* CLOSED GALAXY FOLD */
