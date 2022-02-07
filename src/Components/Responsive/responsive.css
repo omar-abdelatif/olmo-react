@@ -337,6 +337,38 @@
 	.features-texts p{
 		font-size: 1rem;
 	}
+	/* PARTNER COMPONENT */
+	.partner-img img{
+		width: 140px;
+	}
+	/* PRICING COMPONENT */
+	.pricingtable{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	.pricingtable div:first-child p{
+		margin-bottom: 0;
+	}
+	/* FAQ COMPONENT */
+	.faq-txts h2{
+		font-size: 1.7rem;
+	}
+	.faq-item-title h3{
+		font-size: 1.2rem;
+	}
+	/* TRIAL COMPONENT */
+	.trial{
+		margin-bottom: 65px;
+	}
+	.trial-content h3{
+		font-size: 1.4rem;
+	}
+	.trial-btn a:last-child{
+		font-size: 1.12rem;
+	}
+	.trial-btn a{
+		padding: 0;
+	}
 }
 @media (max-width: 480px) {}
 @media (max-width: 375px) {}
