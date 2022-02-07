@@ -1,4 +1,8 @@
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+	.hero::after{
+		width: 55%;
+	}
+}
 @media (max-width: 991px) {
 	.navbar .menu {
 		display: block;
@@ -308,6 +312,9 @@
 		margin: 0 auto;
 	}
 }
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+	
+}
 @media (max-width: 480px) {}
 @media (max-width: 375px) {}
+@media (min-width: 280px) and (max-width: 653px){} /* CLOSED GALAXY FOLD */

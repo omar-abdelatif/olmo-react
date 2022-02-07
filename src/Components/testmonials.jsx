@@ -29,7 +29,7 @@ function Testmonials() {
         <div className="testmonials">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6 order-last">
+                    <div className="col-lg-6 order-last order-lg-2">
                         <div className="testmonials-slide">
                             {TestmonialsData.map(slider => (
                                 <div className={slider.class} key={slider.id}>
@@ -45,7 +45,7 @@ function Testmonials() {
                             ))}
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 order-first order-lg-2">
                         <div className="testmonials-texts wow fadeInRight">
                             <p>WHAT PEOPLE SAY</p>
                             <h2>You're in good hands. See what our clients say about OLMO.</h2>
