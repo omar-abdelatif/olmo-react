@@ -313,6 +313,7 @@
 	}
 }
 @media (max-width: 576px) {
+	/* HERO COMPONENT */
 	.hero-title, 
 	.hero-form, 
 	.hero-img{
@@ -329,6 +330,7 @@
 	.hero-img{
 		margin-top: 40px;
 	}
+	/* FEATURES COMPONENT */
 	.features-texts h2{
 		font-size: 1.8rem;
 	}
