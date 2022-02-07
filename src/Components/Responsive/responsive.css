@@ -370,6 +370,14 @@
 		padding: 0;
 	}
 }
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+	.testmonials-item{
+		width: 400px;
+	}
+	.testmonials-item-img img{
+		width: 60px;
+	}
+	
+}
 @media (max-width: 375px) {}
 @media (min-width: 280px) {} /* CLOSED GALAXY FOLD */

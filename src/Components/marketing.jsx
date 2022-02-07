@@ -50,7 +50,7 @@ function Marketing() {
                 </div>
                 <div className="row boxs wow fadeInUp">
                     {Data.map((item) => (
-                        <div className="col-lg-6" key={item.id}>
+                        <div className="col-lg-6 col-md-6 col-sm-12" key={item.id}>
                             <div className="box">
                                 <div className="icon">
                                     <i className={item.icon}></i>
