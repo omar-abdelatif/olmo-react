@@ -5,6 +5,7 @@ function Pricing() {
             id: 1,
             title: 'SEO STARTER',
             price: '8.99',
+            class: 'pricingtable-header',
             buttonClass: 'btn btn-outline-success',
             duration: 'per month',
             features: [
@@ -22,6 +23,7 @@ function Pricing() {
             popular: 'popular',
             title: 'Basic',
             price: '9.99',
+            class: 'pricingtable-header pt-4',
             duration: 'per month',
             features: [
                 '20 Analytics Campaign',
@@ -39,6 +41,7 @@ function Pricing() {
             title: 'Basic',
             buttonClass: 'btn btn-outline-success',
             price: '9.99',
+            class: 'pricingtable-header',
             duration: 'per month',
             features: [
                 'Unlimited Analytics Campaign',
@@ -73,7 +76,7 @@ function Pricing() {
                                 <div className={pricing.popular}>
                                     <p>{pricing.popular}</p>
                                 </div>
-                                <div className="pricingtable-header">
+                                <div className={pricing.class}>
                                     <p className="price-plan">{pricing.title}</p>
                                     <p className="price">$ {pricing.price}</p>
                                     <p className="duration">{pricing.duration}</p>

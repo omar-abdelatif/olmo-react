@@ -51,7 +51,7 @@ function Partner() {
                         </div>
                     </div>
                 </div>
-                <div className="row justify-content-center row-cols-3">
+                <div className="row justify-content-center row-lg-cols-3 row-md-cols-2 row-sm-cols-1">
                     {partnerData.map(partner => (
                         <div className="col">
                             <div className="partner-img">

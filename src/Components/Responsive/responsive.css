@@ -421,8 +421,11 @@
 	.pricingtable-body{
 		padding-top: 20px;
 	}
-	.feature{
+	.pricingtable-body p{
 		font-size: 1.1rem;
+	}
+	.price-plan{
+		margin-bottom: 0 !important;
 	}
 	.pricing-title p{
 		width: 85%;
@@ -430,6 +433,59 @@
 	.footer-text{
 		width: 90%;
 	}
+	/* FAQ COMPONENT */
+	.ask span{
+		font-size: 1rem;
+	}
+	.ask a{
+		font-size: 1rem;
+	}
+	/* TRIAL COMPONENT */
+	.trial-content h3{
+		font-size: 1.3rem;
+	}
 }
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+	/* FEATURES COMPONENT */
+	.bottom-img img{
+		width: 310px;
+	}
+	/* VIDEO COMPONENT */
+	.video__btn{
+		top: 25%;
+		left: 42%;
+	}
+	.video__btn button{
+		width: 65px;
+		height: 65px;
+	}
+	.video__btn button i{
+		font-size: 2rem;
+	}
+	/* PRICING COMPONENT */
+	.popular{
+		width: 145px;
+		padding: 5px 15px;
+	}
+	/* QUALITY COMPONENT */
+	.quality{
+		margin: 50px auto;
+	}
+	/* TESTMONIALS COMPONENT */
+	.testmonials-item{
+		width: 345px;
+	}
+	/* PRICING COMPONENT */
+	.pricingtable-body p{
+		font-size: 0.9rem;
+	}
+	/* TRIAL COMPONENT */
+	.trial-content h3{
+		font-size: 1rem;
+	}
+	.trial-btn a{
+		font-size: 1rem;
+		padding: 5px;
+	}
+}
 @media (min-width: 280px) {} /* CLOSED GALAXY FOLD */
