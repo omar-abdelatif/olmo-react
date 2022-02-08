@@ -612,4 +612,18 @@
 		font-size: 1.3rem;
 	}
 	/* TRIAL COMPONENT */
+	.trial{
+		margin-bottom: 50px;
+		padding: 25px 7%;
+	}
+	.trial-content h3{
+		font-size: 0.8rem;
+	}
+	.trial-btn a{
+		width: 100%;
+	}
+	/* FOOTER COMPONENT */
+	footer{
+		font-size: 15px;
+	}
 } /* CLOSED GALAXY FOLD */
