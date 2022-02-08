@@ -1,5 +1,5 @@
 @media (max-width: 1024px) {
-	.bottom-img img{
+	.bottom-img img {
 		width: 470px;
 	}
 }
@@ -372,11 +372,11 @@
 }
 @media (max-width: 480px) {
 	/* NAVBAR COMPONENT */
-	.navbar .container{
+	.navbar .container {
 		justify-content: space-around;
 	}
 	/* ANALYTICS COMPONENT */
-	.bottom-img img{
+	.bottom-img img {
 		width: 415px;
 	}
 	/* MARKETING COMPONENT */
@@ -409,83 +409,127 @@
 		margin-right: 10%;
 	}
 	/* PRICING COMPONENT */
-	.pricingtable-header p:first-of-type{
+	.pricingtable-header p:first-of-type {
 		font-size: 1.2rem;
 	}
-	.pricingtable-header p:nth-of-type(2){
+	.pricingtable-header p:nth-of-type(2) {
 		font-size: 3rem;
 	}
-	.pricingtable-header p:last-of-type{
+	.pricingtable-header p:last-of-type {
 		font-size: 1.1rem;
 	}
-	.pricingtable-body{
+	.pricingtable-body {
 		padding-top: 20px;
 	}
-	.pricingtable-body p{
+	.pricingtable-body p {
 		font-size: 1.1rem;
 	}
-	.price-plan{
+	.price-plan {
 		margin-bottom: 0 !important;
 	}
-	.pricing-title p{
+	.pricing-title p {
 		width: 85%;
 	}
-	.footer-text{
+	.footer-text {
 		width: 90%;
 	}
 	/* FAQ COMPONENT */
-	.ask span{
+	.ask span {
 		font-size: 1rem;
 	}
-	.ask a{
+	.ask a {
 		font-size: 1rem;
 	}
 	/* TRIAL COMPONENT */
-	.trial-content h3{
+	.trial-content h3 {
 		font-size: 1.3rem;
 	}
 }
 @media (max-width: 375px) {
 	/* FEATURES COMPONENT */
-	.bottom-img img{
+	.bottom-img img {
 		width: 310px;
 	}
 	/* VIDEO COMPONENT */
-	.video__btn{
+	.video__btn {
 		top: 25%;
 		left: 42%;
 	}
-	.video__btn button{
+	.video__btn button {
 		width: 65px;
 		height: 65px;
 	}
-	.video__btn button i{
+	.video__btn button i {
 		font-size: 2rem;
 	}
 	/* PRICING COMPONENT */
-	.popular{
+	.popular {
 		width: 145px;
 		padding: 5px 15px;
 	}
 	/* QUALITY COMPONENT */
-	.quality{
+	.quality {
 		margin: 50px auto;
 	}
 	/* TESTMONIALS COMPONENT */
-	.testmonials-item{
+	.testmonials-item {
 		width: 345px;
 	}
 	/* PRICING COMPONENT */
-	.pricingtable-body p{
+	.pricingtable-body p {
 		font-size: 0.9rem;
 	}
 	/* TRIAL COMPONENT */
-	.trial-content h3{
+	.trial-content h3 {
 		font-size: 1rem;
 	}
-	.trial-btn a{
+	.trial-btn a {
 		font-size: 1rem;
 		padding: 5px;
 	}
 }
-@media (min-width: 280px) {} /* CLOSED GALAXY FOLD */
+@media (min-width: 280px) {
+	/* HERO COMPONENT */
+	.hero-title h1 {
+		font-size: 20px;
+	}
+	.inputs input {
+		height: 35px;
+	}
+	.inputs button {
+		padding: 0.3rem 1rem;
+		font-size: 1rem;
+	}
+	/* FEATURES COMPONENT */
+	.features-texts h2 {
+		font-size: 1.2rem;
+	}
+	.features-texts p {
+		font-size: 0.7rem;
+	}
+	/* ANALYTICS COMPONENT */
+	.bottom-img img {
+		width: 230px;
+	}
+	/* TESTMONIALS COMPONENT */
+	.testmonials-item-content p {
+		font-size: 0.8rem;
+	}
+	.testmonials-item-content span:first-child {
+		font-size: 1rem;
+		padding-right: 0;
+	}
+	.testmonials-item-content span:last-of-type {
+		font-size: 0.7rem;
+		font-weight: 600;
+	}
+	.testmonials-item {
+		width: 248px;
+		display: block;
+		text-align: center;
+	}
+	.testmonials-item-content{
+		display: grid;
+	}
+	/*  */
+} /* CLOSED GALAXY FOLD */
