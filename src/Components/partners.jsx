@@ -51,9 +51,9 @@ function Partner() {
                         </div>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center row-cols-3">
                     {partnerData.map(partner => (
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col">
                             <div className="partner-img">
                                 <a href="omlo">
                                     <img src={partner.img} alt="partner logo" />
