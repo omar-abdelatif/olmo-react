@@ -505,6 +505,9 @@
 		font-size: 1rem;
 	}
 	/* FEATURES COMPONENT */
+	.features{
+		padding-top: 30px;
+	}
 	.features-texts h2 {
 		font-size: 1.2rem;
 	}
@@ -654,7 +657,44 @@
 		font-size: 0.7rem;
 	}
 	/* QUALITY COMPONENT */
+	.quality{
+		padding: 0;
+		padding-top: 50px;
+		margin: 0;
+	}
+	.quality-txts p{
+		font-size: 0.7rem;
+	}
+	.quality-txts h2{
+		font-size: 1rem;
+	}
+	.quality-txts ul li{
+		font-size: 0.8rem;
+		margin-bottom: 10px;
+	}
 	/* TESTMONIALS COMPONENT */
+	.testmonials{
+		padding-top: 40px;
+	}
+	.testmonials-texts{
+		margin-bottom: 30px;
+	}
+	.testmonials-texts p:first-child{
+		font-size: 0.8rem;
+		margin-bottom: 15px;
+	}
+	.testmonials-texts h2{
+		font-size: 1.2rem;
+	}
+	.testmonials-texts p:last-of-type{
+		font-size: 0.7rem;
+		margin-bottom: 15px;
+	}
+	.testmonials-texts button{
+		padding: 0.5rem 0.8rem;
+		font-size: 0.9rem;
+
+	}
 	.testmonials-item-content p {
 		font-size: 0.8rem;
 	}
@@ -675,6 +715,9 @@
 		display: grid;
 	}
 	/* PRICING COMPONENT */
+	.pricing{
+		padding-top: 30px;
+	}
 	.pricing-title {
 		margin-bottom: 35px;
 	}
