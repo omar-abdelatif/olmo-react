@@ -10,14 +10,14 @@ function Counter() {
         },
         {
             id: 2,
-            count: '54%',
+            count: '54',
             desc: 'Porta justo integer and velna vitae auctor',
             symbol: '%',
             class: 'counter-clients'
         },
         {
             id: 3,
-            count: '4.85',
+            count: '500',
             desc: 'Sagittis congue augue egestas an egestas',
             symbol: '$',
             class: 'counter-price'
@@ -46,7 +46,7 @@ function Counter() {
     function coffeePrice() {
         count3++;
         document.querySelector('.counter-price').innerHTML = count3;
-        if (count3 === 486) {
+        if (count3 === 500) {
             clearInterval(coffee)
         }
     }

@@ -3,7 +3,7 @@
 		width: 470px;
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 	.navbar .menu {
 		display: block;
 		padding: 10px 15px !important;
@@ -31,7 +31,7 @@
 		padding-right: 0;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	/* HERO COMPONENTS */
 	.hero,
 	.marketing,
@@ -54,7 +54,7 @@
 		padding: 0 10%;
 	}
 	.hero-title h1 {
-		font-size: 30px;
+		font-size: 2rem;
 	}
 	.hero::after {
 		width: 100%;
@@ -488,14 +488,14 @@
 		padding: 5px;
 	}
 }
-@media (min-width: 280px) {
+@media (max-width: 280px) {
 	/* NAVBAR COMPONENT */
 	.navbar .container {
 		justify-content: space-between;
 	}
 	/* HERO COMPONENT */
 	.hero-title h1 {
-		font-size: 20px;
+		font-size: 1.45rem;
 	}
 	.inputs input {
 		height: 35px;
@@ -544,10 +544,115 @@
 		font-size: 0.8rem;
 	}
 	/* MARKETING COMPONENT */
+	.marketing{
+		padding-top: 50px;
+	}
+	.market-text p{
+		font-size: 1rem;
+		margin-bottom: 15px;
+	}
+	.market-text h2{
+		font-size: 1.135rem;
+	}
+	.box{
+		display: block;
+		text-align: center;
+	}
+	.icon{
+		margin-right: 0;
+	}
+	.text h3{
+		font-size: 1.1rem;
+	}
 	/* IDEA COMPONENT */
+	.idea{
+		padding-top: 50px;
+	}
+	.slogan{
+		margin-bottom: 25px;
+	}
+	.idea-content{
+		text-align: center;
+	}
+	.idea-txts{
+		margin-bottom: 25px;
+	}
+	.idea-txts h2{
+		font-size: 1.4rem;
+	}
+	.idea-txts p{
+		font-size: 1rem;
+	}
+	.idea-content button{
+		margin-bottom: 50px;
+	}
 	/* GROW COMPONENT */
+	.grow{
+		padding-top: 50px;
+	}
+	.grow-title h2{
+		font-size: 1.56rem;
+	}
+	.grow-title p{
+		width: 100%;
+		padding: 0;
+		font-size: 0.9rem;
+	}
+	.grow-txts h4{
+		font-size: 0.9rem;
+		margin-bottom: 10px;
+	}
+	.grow-txts p{
+		font-size: 0.7rem;
+	}
+	.listaya li{
+		font-size: 0.75rem;
+	}
+	.grow-txts{
+		margin-bottom: 0;
+	}
 	/* COUNTER COMPONENT */
+	.counter{
+		padding-top: 50px;
+	}
+	.counter-item__count{
+		font-size: 2.5rem;
+	}
+	.counter-item__desc{
+		margin-left: 0;
+		font-size: 1rem;
+	}
 	/* VIDEO COMPONENT */
+	.video{
+		padding-top: 50px;
+	}
+	.video__content{
+		margin-bottom: 30px;
+	}
+	.video__title{
+		font-size: 1.235rem;
+		padding-top: 20px;
+	}
+	.video__btn button{
+		width: 50px;
+		height: 50px;
+	}
+	.video__btn button i{
+		font-size: 1.5rem;
+	}
+	iframe{
+		width: 260px;
+	}
+	.modal-dialog{
+		margin: 0;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.video__features span{
+		font-size: 0.7rem;
+	}
 	/* QUALITY COMPONENT */
 	/* TESTMONIALS COMPONENT */
 	.testmonials-item-content p {
