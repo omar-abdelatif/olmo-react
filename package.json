@@ -11,8 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "i": "^0.3.7",
     "npm": "^8.3.2",
     "react": "^17.0.2",
@@ -23,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
