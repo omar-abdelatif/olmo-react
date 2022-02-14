@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/olmo-react/static/css/main.6164740c.css",
-    "main.js": "/olmo-react/static/js/main.f09d6022.js",
+    "main.js": "/olmo-react/static/js/main.dbce07ac.js",
     "static/media/fa-solid-900.svg": "/olmo-react/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/olmo-react/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/fa-solid-900.eot": "/olmo-react/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -19,10 +19,10 @@
     "static/media/fa-regular-400.woff2": "/olmo-react/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/olmo-react/index.html",
     "main.6164740c.css.map": "/olmo-react/static/css/main.6164740c.css.map",
-    "main.f09d6022.js.map": "/olmo-react/static/js/main.f09d6022.js.map"
+    "main.dbce07ac.js.map": "/olmo-react/static/js/main.dbce07ac.js.map"
   },
   "entrypoints": [
     "static/css/main.6164740c.css",
-    "static/js/main.f09d6022.js"
+    "static/js/main.dbce07ac.js"
   ]
 }
