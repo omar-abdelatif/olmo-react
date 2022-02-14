@@ -782,6 +782,13 @@ img {
 .contact {
 	padding: 100px 0;
 }
+/* ABOUT COMPONENT */
+.about, .feature, .price, .faqs {
+	height: 92vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /* FOOTER COMPONENT */
 footer {
 	background-color: #2c3e50;

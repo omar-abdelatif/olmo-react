@@ -5,6 +5,9 @@ import Nav from './nav';
 import Index from './index';
 import Contact from './contact';
 import About from './about';
+import Feature from './feature';
+import Pricing from './price';
+import FAQS from './faqs';
 import Footer from './footer';
 function App() {
 	return (
@@ -15,6 +18,9 @@ function App() {
 				<Route index path="olmo-react" element={<Index />} />
 				<Route path="contact" element={<Contact />} />
 				<Route path="about" element={<About />} />
+				<Route path="feature" element={<Feature />} />
+				<Route path="pricing" element={<Pricing />} />
+				<Route path="faqs" element={<FAQS />} />
 			</Routes>
 			<Footer />
 		</React.Fragment>

@@ -23,19 +23,19 @@ function NAV() {
                         <div class="offcanvas-body">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/omlo">Home</NavLink>
+                                    <NavLink className="nav-link" to="/olmo-react">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/">Features</NavLink>
+                                    <NavLink className="nav-link" to="/feature">Features</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="*">FAQS</NavLink>
+                                    <NavLink className="nav-link" to="/faqs">FAQS</NavLink>
                                 </li>
                             </ul>
                             <button className="btn btn-primary">Let's Started</button>
