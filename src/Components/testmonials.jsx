@@ -3,7 +3,7 @@ function Testmonials() {
         {
             id: 1,
             class: 'testmonials-item child-one wow fadeInUp mb-4',
-            img: 'omlo/imgs/review-author-3.jpg',
+            img: '/olmo-react/imgs/review-author-3.jpg',
             name: 'Joel Peterson',
             position: 'Marketing Manager',
             opinion: 'Sapien sem at sagittis congue augue massa varius an egestas suscipit'
@@ -11,7 +11,7 @@ function Testmonials() {
         {
             id: 2,
             class: 'testmonials-item child-two wow fadeInUp mb-4',
-            img: 'omlo/imgs/review-author-2.jpg',
+            img: '/olmo-react/imgs/review-author-2.jpg',
             name: 'Jogn Doe',
             position: 'Internet Surfer',
             opinion: 'Mauris donec magnis sapien congue an augue egestas undo vitae purus cursus integer a congue magna'
@@ -19,7 +19,7 @@ function Testmonials() {
         {
             id: 3,
             class: 'testmonials-item child-one wow fadeInUp',
-            img: 'omlo/imgs/review-author-5.jpg',
+            img: '/olmo-react/imgs/review-author-5.jpg',
             name: 'Jennifer Harper',
             position: 'App Developer',
             opinion: 'Augue massa varius egestas suscipit magna a tempus aliquet blandit'
