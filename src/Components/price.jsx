@@ -1,6 +1,6 @@
 function Pricing() {
     return (
-        <section className="price">
+        <section className="cost">
             <h1>This Is Pricing Component</h1>
         </section>
     );

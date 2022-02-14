@@ -783,7 +783,7 @@ img {
 	padding: 100px 0;
 }
 /* ABOUT COMPONENT */
-.about, .feature, .price, .faqs {
+.about, .feature, .cost, .faqs {
 	height: 92vh;
 	display: flex;
 	justify-content: center;
