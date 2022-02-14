@@ -2,43 +2,43 @@ function Partner() {
     const partnerData = [
         {
             id: 1,
-            img: 'omlo/imgs/brand-1.png'
+            img: 'olmo-react/imgs/brand-1.png'
         },
         {
             id: 2,
-            img: 'omlo/imgs/brand-2.png'
+            img: 'olmo-react/imgs/brand-2.png'
         },
         {
             id: 3,
-            img: 'omlo/imgs/brand-3.png'
+            img: 'olmo-react/imgs/brand-3.png'
         },
         {
             id: 4,
-            img: 'omlo/imgs/brand-4.png'
+            img: 'olmo-react/imgs/brand-4.png'
         },
         {
             id: 5,
-            img: 'omlo/imgs/brand-5.png'
+            img: 'olmo-react/imgs/brand-5.png'
         },
         {
             id: 6,
-            img: 'omlo/imgs/brand-6.png'
+            img: 'olmo-react/imgs/brand-6.png'
         },
         {
             id: 7,
-            img: 'omlo/imgs/brand-7.png'
+            img: 'olmo-react/imgs/brand-7.png'
         },
         {
             id: 8,
-            img: 'omlo/imgs/brand-8.png'
+            img: 'olmo-react/imgs/brand-8.png'
         },
         {
             id: 9,
-            img: 'omlo/imgs/brand-9.png'
+            img: 'olmo-react/imgs/brand-9.png'
         },
         {
             id: 10,
-            img: 'omlo/imgs/brand-8.png'
+            img: 'olmo-react/imgs/brand-8.png'
         }
     ]
     return (
