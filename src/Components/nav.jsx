@@ -12,13 +12,13 @@ function NAV() {
         <header>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-                    <Link className="navbar-brand" to="/olmo-react">OLMO</Link>
+                    <Link className="navbar-brand" to="/">OLMO</Link>
                     <button className="btn btn-primary menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                            <Link to='omlo'>OMLO</Link>
+                            <Link to='/'>OMLO</Link>
                         </div>
                         <div class="offcanvas-body">
                             <ul className="navbar-nav">
