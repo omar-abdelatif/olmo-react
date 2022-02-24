@@ -2,43 +2,43 @@ function Partner() {
     const partnerData = [
         {
             id: 1,
-            img: '/olmo-react/imgs/brand-1.png'
+            img: 'imgs/brand-1.png'
         },
         {
             id: 2,
-            img: '/olmo-react/imgs/brand-2.png'
+            img: 'imgs/brand-2.png'
         },
         {
             id: 3,
-            img: '/olmo-react/imgs/brand-3.png'
+            img: 'imgs/brand-3.png'
         },
         {
             id: 4,
-            img: '/olmo-react/imgs/brand-4.png'
+            img: 'imgs/brand-4.png'
         },
         {
             id: 5,
-            img: '/olmo-react/imgs/brand-5.png'
+            img: 'imgs/brand-5.png'
         },
         {
             id: 6,
-            img: '/olmo-react/imgs/brand-6.png'
+            img: 'imgs/brand-6.png'
         },
         {
             id: 7,
-            img: '/olmo-react/imgs/brand-7.png'
+            img: 'imgs/brand-7.png'
         },
         {
             id: 8,
-            img: '/olmo-react/imgs/brand-8.png'
+            img: 'imgs/brand-8.png'
         },
         {
             id: 9,
-            img: '/olmo-react/imgs/brand-9.png'
+            img: 'imgs/brand-9.png'
         },
         {
             id: 10,
-            img: '/olmo-react/imgs/brand-8.png'
+            img: 'imgs/brand-8.png'
         }
     ]
     return (
@@ -55,7 +55,7 @@ function Partner() {
                     {partnerData.map(partner => (
                         <div className="col">
                             <div className="partner-img">
-                                <a href="olmo-react">
+                                <a href="/">
                                     <img src={partner.img} alt="partner logo" />
                                 </a>
                             </div>
