@@ -15,7 +15,7 @@ function App() {
 			<ScrollUp />
 			<Nav />
 			<Routes>
-				<Route index path="olmo-react" element={<Index />} />
+				<Route index element={<Index />} />
 				<Route path="contact" element={<Contact />} />
 				<Route path="about" element={<About />} />
 				<Route path="feature" element={<Feature />} />
