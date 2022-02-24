@@ -23,7 +23,7 @@ function NAV() {
                         <div class="offcanvas-body">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/olmo-react">Home</NavLink>
+                                    <NavLink className="nav-link" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/about">About</NavLink>
